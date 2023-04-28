@@ -4,12 +4,18 @@ devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.38.5
     version: 0.38.5(eslint@8.39.0)(typescript@5.0.4)
+  '@types/node':
+    specifier: ^18.16.2
+    version: 18.16.2
   eslint:
     specifier: ^8.39.0
     version: 8.39.0
   lint-staged:
     specifier: ^13.2.2
     version: 13.2.2
+  rollup-plugin-tampermonkey-header:
+    specifier: ^0.1.6
+    version: 0.1.6
   simple-git-hooks:
     specifier: ^2.8.1
     version: 2.8.1
@@ -743,6 +749,10 @@ packages:
     resolution: {integrity: sha512-Y/uImid8aAwrEA24/1tcRZwpxX3pIFTSilcNDKSPn+Y2iDywSEachzRuvgAYYLR3wpGXAsMbv5lvKLDZLeYPAw==}
     dependencies:
       '@types/unist': 2.0.6
+    dev: true
+
+  /@types/node@18.16.2:
+    resolution: {integrity: sha512-GQW/JL/5Fz/0I8RpeBG9lKp0+aNcXEaVL71c0D2Q0QHDTFvlYKT7an0onCUXj85anv7b4/WesqdfchLc0jtsCg==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -3055,6 +3065,11 @@ packages:
       typescript: 5.0.4
     optionalDependencies:
       '@babel/code-frame': 7.21.4
+    dev: true
+
+  /rollup-plugin-tampermonkey-header@0.1.6:
+    resolution: {integrity: sha512-haygh9em8h7loqopGke2ijvBwesPDNgx517iHEMQh6BzIh0wHGyaywkbGHrJ65ipkxx8QMnL46t7tjEEUdKLYA==}
+    engines: {node: '>=14.0.0'}
     dev: true
 
   /rollup@3.21.0:
